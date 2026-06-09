@@ -1,0 +1,37 @@
+{
+  "_sources": [
+    "Sethuraman, Tellis & Briesch (2011), 'How Well Does Advertising Work? Generalizations from Meta-Analysis of Brand Advertising Elasticities', Journal of Marketing Research — mean short-term ad elasticity ~0.12, long-term ~0.24",
+    "Google Meridian open-source MMM documentation — default ROI/saturation (Hill function) prior guidance",
+    "Channel-level adjustments are stated planning priors; confidence labels reflect the distance from the published evidence base"
+  ],
+  "channel_base": {
+    "linear": {"elasticity": 0.10, "saturation_point_index": 1.6, "lag_effect_weeks": 4, "confidence": "medium"},
+    "ctv": {"elasticity": 0.09, "saturation_point_index": 1.9, "lag_effect_weeks": 3, "confidence": "low"},
+    "youtube": {"elasticity": 0.07, "saturation_point_index": 2.2, "lag_effect_weeks": 2, "confidence": "medium"}
+  },
+  "category_multipliers": {
+    "cpg": 0.80,
+    "retail": 1.20,
+    "auto": 1.10,
+    "automotive": 1.10,
+    "finance": 0.90,
+    "financial services": 0.90,
+    "insurance": 0.90,
+    "telecom": 0.95,
+    "restaurants": 1.15,
+    "qsr": 1.15,
+    "travel": 1.20,
+    "pharma": 0.70,
+    "entertainment": 1.25,
+    "streaming": 1.25,
+    "default": 1.00
+  },
+  "kpi_adjustments": {
+    "roas": {"elasticity_multiplier": 1.0, "lag_delta_weeks": 0},
+    "conversion": {"elasticity_multiplier": 0.9, "lag_delta_weeks": 0},
+    "brand lift": {"elasticity_multiplier": 1.1, "lag_delta_weeks": 2},
+    "reach": {"elasticity_multiplier": 1.0, "lag_delta_weeks": 0},
+    "frequency": {"elasticity_multiplier": 1.0, "lag_delta_weeks": 0},
+    "grp": {"elasticity_multiplier": 1.0, "lag_delta_weeks": 0}
+  }
+}
