@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mediaplanner"
+version = "0.1.0"
+description = "Cross-channel media planning agent (Linear TV / CTV / YouTube) built on the Anthropic API"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.40",
+]
+
+[project.scripts]
+mediaplanner = "mediaplanner.agent:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mediaplanner = ["data/*.json"]

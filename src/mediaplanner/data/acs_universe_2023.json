@@ -1,0 +1,43 @@
+{
+  "_sources": [
+    "U.S. Census Bureau, American Community Survey 2023 5-Year Estimates (population, households, age distribution) — snapshot fallback when api.census.gov is unreachable",
+    "DMA TV-household estimates: Nielsen 2024-25 local DMA universe estimates as publicly reported (directional, low confidence)"
+  ],
+  "vintage": "ACS 2023 5-year (snapshot); Nielsen 2024-25 DMA estimates",
+  "national": {"population_000s": 334914, "households_000s": 127482, "avg_household_size": 2.51},
+  "age_fractions_of_total_population": {
+    "18-24": 0.0899,
+    "25-34": 0.1361,
+    "35-44": 0.1296,
+    "45-54": 0.1212,
+    "55-64": 0.1260,
+    "65+": 0.1726,
+    "18+": 0.7754,
+    "18-34": 0.2260,
+    "18-49": 0.4180,
+    "25-54": 0.3869,
+    "35-64": 0.3768,
+    "55+": 0.2986
+  },
+  "gender_fraction": {"m": 0.494, "w": 0.506, "f": 0.506},
+  "state_population_000s": {
+    "alabama": 5108, "alaska": 733, "arizona": 7431, "arkansas": 3068,
+    "california": 38965, "colorado": 5877, "connecticut": 3617, "delaware": 1031,
+    "district of columbia": 679, "florida": 22611, "georgia": 11029, "hawaii": 1435,
+    "idaho": 1965, "illinois": 12549, "indiana": 6862, "iowa": 3208,
+    "kansas": 2940, "kentucky": 4527, "louisiana": 4574, "maine": 1395,
+    "maryland": 6180, "massachusetts": 7001, "michigan": 10037, "minnesota": 5738,
+    "mississippi": 2940, "missouri": 6196, "montana": 1132, "nebraska": 1979,
+    "nevada": 3194, "new hampshire": 1403, "new jersey": 9290, "new mexico": 2114,
+    "new york": 19571, "north carolina": 10835, "north dakota": 783, "ohio": 11785,
+    "oklahoma": 4054, "oregon": 4233, "pennsylvania": 12962, "rhode island": 1096,
+    "south carolina": 5374, "south dakota": 919, "tennessee": 7126, "texas": 30503,
+    "utah": 3417, "vermont": 647, "virginia": 8716, "washington": 7812,
+    "west virginia": 1770, "wisconsin": 5911, "wyoming": 584
+  },
+  "dma_tv_households_000s": {
+    "new york": 7390, "los angeles": 5490, "chicago": 3290, "philadelphia": 2940,
+    "dallas-ft. worth": 2960, "san francisco-oakland-san jose": 2650,
+    "atlanta": 2620, "houston": 2660, "washington dc": 2550, "boston": 2440
+  }
+}

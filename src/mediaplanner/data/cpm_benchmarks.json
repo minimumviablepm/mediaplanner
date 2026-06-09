@@ -1,0 +1,32 @@
+{
+  "_sources": [
+    "Compiled from publicly reported US CPM ranges: eMarketer/Insider Intelligence public coverage of CTV CPMs, Guideline (formerly SMI) press summaries of national TV pricing, Google-published YouTube auction benchmarks and trade-press reporting",
+    "Net USD, :30-equivalent units, national A25-54 base; adjusted by demo, geography tier, and flight-quarter seasonality",
+    "These are directional benchmarks, not a live ratecard. User-negotiated rates always take priority."
+  ],
+  "data_vintage": "2025-H2 public benchmark compilation",
+  "base_cpm_median": {
+    "linear": {"upfront": 32.0, "scatter": 38.0, "programmatic_guaranteed": 30.0, "open_market": 26.0},
+    "ctv": {"upfront": 38.0, "scatter": 42.0, "programmatic_guaranteed": 35.0, "open_market": 28.0},
+    "youtube": {"upfront": 26.0, "scatter": 28.0, "programmatic_guaranteed": 22.0, "open_market": 12.0}
+  },
+  "spread": {"p25_factor": 0.80, "p75_factor": 1.22},
+  "demo_multipliers": {
+    "18-34": 1.25,
+    "18-49": 1.10,
+    "25-54": 1.00,
+    "35-64": 0.95,
+    "55+": 0.85,
+    "default": 1.00
+  },
+  "gender_multipliers": {"m18-34": 1.05, "w18-34": 1.02, "default": 1.00},
+  "geo_multipliers": {
+    "national": 1.00,
+    "state": 1.10,
+    "dma_tier1": 1.35,
+    "dma_tier2": 1.15,
+    "dma_other": 0.95
+  },
+  "tier1_dmas": ["new york", "los angeles", "chicago", "philadelphia", "dallas", "san francisco", "atlanta", "houston", "washington", "boston"],
+  "quarter_multipliers": {"Q1": 0.85, "Q2": 1.00, "Q3": 0.90, "Q4": 1.20}
+}
